@@ -6,7 +6,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test</title>
 </head>
+<style>
+    #h1{
+        text-align: center;
+    }
+    .login{
+        height: 60%;
+        width: 60%;
+        top: 50%;
+        right: 0%;
+        margin: 0%;
+        float: right;
+        position: absolute;
+        transform: translate(0, -50%);
+        background-color: aqua;
+    }
+    .center-in-center{
+        height: 80%;
+        width: 80%;
+        background-color:chartreuse;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        line-height: 80%;
+    }
+    .img{
+        float: left;
+        background-color: black;
+    }
+</style>
 <body>
-    <p>test</p>
+    <h1 id="h1">成绩填报系统</h1>
+    <div>
+        <div class="img">
+            
+        </div>
+        <div class="login">
+            <form method="post" class="center-in-center">
+                <div style="height: 20%;"><p>用户名: <input type="text" name="name" size="15"></p></div>
+                <div style="height: 20%;"><p>密码： <input type="password" name="password" size="15"></p></div>
+                <div style="width: 60%;">
+                    <div style="float: right;">
+                        <button>登录</button>
+                    </div>
+                    <button>注册</button>
+                </div>
+            </form>
+        </div> 
+    </div>
 </body>
 </html>
