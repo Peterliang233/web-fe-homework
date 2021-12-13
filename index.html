@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test</title>
+    <title>login</title>
 </head>
 <style>
     #h1{
@@ -33,28 +33,34 @@
         line-height: 80%;
     }
     .img{
-        float: left;
-        background-color: black;
+        position: absolute;
+        top: 40%;
+        left: 10%;
     }
+    img{width:400px;height:300px}
 </style>
 <body>
-    <h1 id="h1">成绩填报系统</h1>
     <div>
-        <div class="img">
-            
-        </div>
-        <div class="login">
-            <form method="post" class="center-in-center">
-                <div style="height: 20%;"><p>用户名: <input type="text" name="name" size="15"></p></div>
-                <div style="height: 20%;"><p>密码： <input type="password" name="password" size="15"></p></div>
-                <div style="width: 60%;">
-                    <div style="float: right;">
+        <div style="height: 10%;"><h1 id="h1">成绩填报系统</h1></div>
+        <div style="flex: auto;">
+            <div class="img">
+                <img src="./images/images.jpeg">
+            </div>
+            <div class="login">
+                <form class="center-in-center">
+                    <div class="center-in-center">
+                        <div style="height: 20%;"><p>用户名: <input type="text" name="name" size="15"></p></div>
+                        <div style="height: 20%;"><p>密码： <input type="password" name="password" size="15"></p></div>
                         <button>登录</button>
+                        &nbsp;&nbsp;&nbsp;
+                        <button>注册</button>
                     </div>
-                    <button>注册</button>
-                </div>
-            </form>
-        </div> 
+                </form>
+            </div> 
+        </div>
     </div>
 </body>
+<script>
+    
+</script>
 </html>
