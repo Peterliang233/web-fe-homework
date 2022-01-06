@@ -1,0 +1,31 @@
+#h1{
+    text-align: center;
+}
+.login{
+    height: 60%;
+    width: 60%;
+    top: 50%;
+    right: 0%;
+    margin: 0%;
+    float: right;
+    position: absolute;
+    transform: translate(0, -50%);
+    background-color: aqua;
+}
+.center-in-center{
+    height: 80%;
+    width: 80%;
+    background-color:chartreuse;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    line-height: 80%;
+}
+.img{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+img{width:400px;height:300px}

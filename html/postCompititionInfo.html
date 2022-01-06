@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/postinfo.css" type="text/css" rel="stylesheet"/>
+    <title>Document</title>
+</head>
+<script src="../js/postinfo.js"></script>
+<body>
+    <div class="div1">
+        <input type="button" value="回到上一页" class="back" onclick="history.go(-1)">
+        <div>
+            <h1>队伍比赛信息填报</h1>
+        </div>
+        <div>
+            <label>比赛平台</label>
+            <select>
+                <option disabled selected value>---请选择比赛平台---</option>
+                <option value="牛客">牛客</option>
+                <option value="杭电">杭电</option>
+            </select>
+        </div>
+        <div>
+            <label>比赛场次</label>
+            <select>
+                <option disabled selected value>---请选择比赛场次---</option>
+                <option value="第一场">第一场</option>
+                <option value="第二场">第二场</option>
+                <option value="第三场">第三场</option>
+            </select>
+        </div>
+        <div>
+            <label>队伍名</label>
+            <select>
+                <option disabled selected value>---请选择比赛队伍---</option>
+                <option value="我们都有美好的未来">我们都有美好的未来</option>
+                <option value="fakesupernova">fakesupernova</option>
+                <option value="int mian">int mian</option>
+            </select>
+        </div>
+        <div>
+            <label>队伍排名</label>
+            <input type="text" placeholder="请确保输入队伍排名是正整数">
+        </div>
+
+        <div>
+            <button type="button">提交</button>
+        </div>
+    </div>
+</body>
+</html>
